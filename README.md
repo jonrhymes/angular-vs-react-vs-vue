@@ -6,3 +6,9 @@ Technologies include:
 * Adobe XD
 * Bulma
 * Font Awesome
+* Font Awesome 2 PNG
+* Plus Frameworks:
+    * Angular
+    * React
+    * Vue
+
