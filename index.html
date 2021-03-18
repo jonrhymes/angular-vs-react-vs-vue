@@ -3,13 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <title>Angular vs. React vs. Vue</title>
 </head>
 <body>
-    <h1><i class="fab fa-angular"></i> Angular</h1>
-    <h1><i class="fab fa-react"></i> React</h1>
-    <h1><i class="fab fa-vuejs"></i> Vue</h1>
+    <!-- Container Begins -->
+    <div class="container is-fluid">
+
+        <!-- Navbar Begins -->
+        <nav class="navbar level is-warning" style="margin-bottom:0;">
+            <p class="level-item has-text-centered">
+                <a class="link is-info" href="https://jonrhymes.github.io/mycompany-angular/" target="_blank" rel="noopener noreferrer"><i class="fab fa-angular"></i> Angular</a>
+            </p>
+            <p class="level-item has-text-centered">
+                <a class="link is-info" href="https://jonrhymes.github.io/mycompany-react/" target="_blank" rel="noopener noreferrer"><i class="fab fa-react"></i> React</a>
+            </p>
+            <p class="level-item has-text-centered">
+                <a class="link is-info" href="https://jonrhymes.github.io/mycompany-vue/" target="_blank" rel="noopener noreferrer"><i class="fab fa-vuejs"></i> Vue</a>
+            </p>
+        </nav>
+
+        <!-- Hero Begins -->
+        <section class="hero is-info is-small" style="padding:5%;">
+            <div class="hero-body">
+                <div class="">
+                    <p class="title">
+                        <i class="fab fa-angular"></i> Angular <i class="fas fa-arrow-right"></i> 
+                        <i class="fab fa-react"></i> React <i class="fas fa-arrow-right"></i> 
+                        <i class="fab fa-vuejs"></i> Vue
+                    </p>
+                </div>
+              <p class="subtitle" style="margin-top:10px;">
+                Comparison of Angular, React, and Vue Apps to understand the core differences. 
+              </p>
+            </div>
+        </section>
+        <!-- Hero Ends -->
+
+        <!-- Source Caption Begins -->
+        <p>Sourced from <a class="link is-warning" href="https://www.udemy.com/course/react-vs-angular-vs-vuejs-by-example/" target="_blank" rel="noopener noreferrer">Gary Simon's Udemy course</a></p>
+        <!-- Source Caption Begins -->
+
+        <!-- Content Begins -->
+
+        <!-- Wireframe Begins -->
+        <div class="content" style="margin-top:30px;">
+            <h2 style="color:#3298dc">🖼 Wireframes</h2>
+                <p>Before writing a single line of code, I designed the entire website in <b>Adobe XD</b>. Using <b>Bulma</b> documentation as a frame of reference, each wireframe approximated a style that would eventually be compiled by Bulma and customized with <b>SCSS</b>.</p>        
+        </div>
+        <!-- Wireframe Ends -->
+
+        <!-- Mobile Functionality Begins -->
+        <div class="content">
+            <h2 style="color:#3298dc">📲 Mobile functionality</h2>
+            <p>Particular importance was paid to the app's mobile-responsiveness. Shrinking the Desktop window will automatically display a hamburger menu in the navbar, featuring the same links and routes to pages when viewed fullscreen, except now vertically stacked and left-aligned.</p>
+            <p>JQuery toggles the "active" class from <code>false</code> to <code>true</code> in order to display the menu and links it contains inside.</p>
+        </div>
+        <!-- Mobile Functionality Ends -->
+
+        <!-- API Begins -->
+        <div class="content">
+            <h2 style="color:#3298dc">⚙️ API</h2>
+            <p>For the FAQ page, I used <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder API</a> to dynamically fill cards with Lorem Ipsum text. Who said Latin is a dead language?</p>
+        </div>
+        <!-- API Ends -->
+
+        <!-- Live Websites Header Begins -->
+        <div class="content">
+            <h2 style="color:#3298dc">🔋 Live websites <i class="far fa-handshake" style="color:#888;padding:0 7px;"></i>   <i class="fab fa-github" style="color:#3298dc;"></i> Github repositories</h2>
+        </div>
+        <div class="content" style="background-color:#ffdd57;padding:20px 15px;">
+        <!-- Live Websites Header Ends -->
+
+            <!-- Cards Begin -->
+            <div class="columns">
+                <!-- ANGULAR CARD Begins -->
+                <div class="column is-one-third">
+                    <div class="card" id="card-1">
+                        <div class="card-header">
+                            <div class="card-header-title is-centered">
+                                <a class="link" style="font-size:35px;" href="https://jonrhymes.github.io/mycompany-angular/" target="_blank" rel="noopener noreferrer">AngularJS</a>
+                            </div>
+                        </div>
+                        <!-- Image Begins -->
+                        <div class="card-image">
+                            <figure class="image">
+                                <span style="font-size:100px;color: #dd0031;">
+                                    <i class="fab fa-angular"></i>
+                                </span>
+                            </figure>
+                        </div>
+                        <!-- Image Ends-->
+
+                        <!-- Content Begins -->
+                        <div class="card-content">
+                            <p>
+                                First time using Typescript. <b>Routing</b> was easy to set up. Modification of click-handling events and navbar menu class-toggling was straightforward.
+                            </p>
+                            <p>
+                                To call the <b>API</b>, I installed an injectable service that grabs Observable data, while the FAQ page subscribed to a function which sliced the first 10 entries. One neat feature to <b>Angular</b> is each component had its own scoped <b>SCSS</b>. 
+                            </p>
+                        </div>
+                        <!-- Content Ends -->
+                        <!-- Footer Begins -->
+                        <footer class="card-footer">
+                            <a href="https://jonrhymes.github.io/mycompany-angular/" target="_blank" rel="noopener noreferrer" class="card-footer-item">Live site</a>
+                            <a href="https://github.com/jonrhymes/mycompany-angular" target="_blank" rel="noopener noreferrer" class="card-footer-item">Github repo</a>
+                        </footer>
+                        <!-- Footer  -->
+                    </div>
+                </div>
+                <!-- ANGULAR CARD Ends -->
+
+                <!-- REACT CARD Begins -->
+                <div class="column ">
+                    <div class="card" id="card-2">
+                        <div class="card-header">
+                            <div class="card-header-title is-centered">
+                                <a class="link" style="font-size:35px;" href="https://jonrhymes.github.io/mycompany-react/" target="_blank" rel="noopener noreferrer">React.js</a>
+                            </div>
+                        </div>
+                        <!-- Image Begins -->
+                        <div class="card-image">
+                            <figure class="image">
+                                <span style="font-size:100px;color: #5ed3f3;">
+                                    <i class="fab fa-react"></i>
+                                </span>
+                            </figure>
+                        </div>
+                        <!-- Image Ends-->
+
+                        <!-- Content Begins -->
+                        <div class="card-content">
+                            <p>
+                                First time using Typescript. <b>Routing</b> was easy to set up. Modification of click-handling events and navbar menu class-toggling was straightforward.
+                            </p>
+                            <p>
+                                To call the <b>API</b>, I installed an injectable service that grabs Observable data, while the FAQ page subscribed to a function which sliced the first 10 entries. One neat feature to <b>React</b> is each component had its own scoped <b>SCSS</b>. 
+                            </p>
+                        </div>
+                        <!-- Content Ends -->
+                        <!-- Footer Begins -->
+                        <footer class="card-footer">
+                            <a href="https://jonrhymes.github.io/mycompany-react/" target="_blank" rel="noopener noreferrer" class="card-footer-item">Live site</a>
+                            <a href="https://github.com/jonrhymes/mycompany-react" target="_blank" rel="noopener noreferrer" class="card-footer-item">Github repo</a>
+                        </footer>
+                        <!-- Footer  -->
+                    </div>
+                </div>
+                <!-- REACT CARD Ends -->                
+
+                <!-- VUE CARD Begins -->
+                <div class="column ">
+                    <div class="card" id="card-2">
+                        <div class="card-header">
+                            <div class="card-header-title is-centered">
+                                <a class="link" style="font-size:35px;" href="https://jonrhymes.github.io/mycompany-vue/" target="_blank" rel="noopener noreferrer">Vue.js</a>
+                            </div>
+                        </div>
+                        <!-- Image Begins -->
+                        <div class="card-image">
+                            <figure class="image">
+                                <span style="font-size:100px;color: #41b883;">
+                                    <i class="fab fa-vuejs"></i>
+                                </span>
+                            </figure>
+                        </div>
+                        <!-- Image Ends-->
+
+                        <!-- Content Begins -->
+                        <div class="card-content">
+                            <p>
+                                First time using Vue. <b>Routing</b> was easy to set up. Modification of click-handling events and navbar menu class-toggling was straightforward.
+                            </p>
+                            <p>
+                                To call the <b>API</b>, I installed an injectable service that grabs Observable data, while the FAQ page subscribed to a function which sliced the first 10 entries. One neat feature to <b>Angular</b> is each component had its own scoped <b>SCSS</b>. 
+                            </p>
+                        </div>
+                        <!-- Content Ends -->
+                        <!-- Footer Begins -->
+                        <footer class="card-footer">
+                            <a href="https://jonrhymes.github.io/mycompany-vue/" target="_blank" rel="noopener noreferrer" class="card-footer-item">Live site</a>
+                            <a href="https://github.com/jonrhymes/mycompany-vue" target="_blank" rel="noopener noreferrer" class="card-footer-item">Github repo</a>
+                        </footer>
+                        <!-- Footer  -->
+                    </div>
+                </div>
+                <!-- VUE CARD Ends -->                
+
+            </div>
+            <!-- Cards End -->
+        </div>
+        <!-- Live Websites Ends -->
+
+        <div class="content">
+            <h2 style="color:#3298dc">🤔 Conclusions</h2>
+        </div>
+
+        <!-- Content Ends -->
+
+
+
+    </div>
+    <!-- Container Ends -->
+
+    <!-- Style -->
+    <style>
+        a {
+            color: #3298dc;
+        }
+        a:hover {
+            color: #888;
+        }
+    </style>
 </body>
 </html>
