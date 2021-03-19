@@ -1,6 +1,9 @@
 # Angular vs. React vs. Vue
 
-### :link: Links to live sites:
+## :battery: Link to live site:
+[Angular vs. React vs. Vue](https://jonrhymes.github.io/angular-vs-react-vs-vue/)
+
+### :link: Links to individual sites:
 * [Angular](https://jonrhymes.github.io/mycompany-angular/)
 * [React](https://jonrhymes.github.io/mycompany-react/)
 * [Vue](https://jonrhymes.github.io/mycompany-vue/)
